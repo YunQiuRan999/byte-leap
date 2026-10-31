@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Token Leap">
+  <defs>
+    <linearGradient id="tlBg" x1="24" y1="16" x2="232" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f5f7"/>
+      <stop offset=".48" stop-color="#d7dde3"/>
+      <stop offset="1" stop-color="#9ba4ad"/>
+    </linearGradient>
+    <linearGradient id="tlSheen" x1="48" y1="24" x2="208" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tlInk" x1="64" y1="96" x2="200" y2="184" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d5761"/>
+      <stop offset="1" stop-color="#6c7781"/>
+    </linearGradient>
+    <radialGradient id="tlGlow" cx=".3" cy=".42" r=".66">
+      <stop offset="0" stop-color="#c8d2db" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#c8d2db" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#tlBg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#tlGlow)"/>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#tlSheen)"/>
+  <rect x="8.75" y="8.75" width="238.5" height="238.5" rx="59.25" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#tlInk)" stroke-width="12" stroke-linecap="round">
+    <path d="M52 92c-16 14-16 58 0 72" opacity=".42"/>
+    <path d="M84 104h34" opacity=".92"/>
+    <path d="M96 128h72" opacity="1"/>
+    <path d="M84 152h52" opacity=".8"/>
+  </g>
+  <g fill="url(#tlInk)">
+    <circle cx="188" cy="102" r="7" opacity=".55"/>
+    <circle cx="208" cy="128" r="5" opacity=".38"/>
+    <circle cx="182" cy="154" r="6" opacity=".3"/>
+  </g>
+</svg>
